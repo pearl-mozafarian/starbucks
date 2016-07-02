@@ -9,7 +9,7 @@ The user is challenged to guess this number.
 - The winner gets to see the map with the locations of Starbucks stores marked on them.
 ______________________________________________________________________________________
 
-### TECH STUFF:
+### Technology Used:
 >- HTML5, CSS3, JavaScript/jQuery
 >- Google API
 >- Starbucks Coffee Addiction
