@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oxygen', sans-serif;
+    background: url("http://az616578.vo.msecnd.net/files/2016/03/19/635940108383067522851797764_635806393717942917-2045720344_coffee-cup-and-beans-wood-background.jpg") no-repeat;
+    background-size: cover ;
+    height: 97vh;
+    color: 	#fff;
+    font-weight: bold;
+}
+#overlay {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background:url("http://az616578.vo.msecnd.net/files/2016/03/19/635940108383067522851797764_635806393717942917-2045720344_coffee-cup-and-beans-wood-background.jpg") no-repeat;
+    background-size: cover ;
+}
+h3 {
+    text-align: center;
+    padding:1% 0 5% 0;
+}
+#map {
+    width: 50vh;
+    height: 50vh;
+    transition-duration: 2s;
+    border-radius: 50%;
+}
+#content {
+  position: absolute;
+    top: 10%;
+    right:5%;
+    width: 50%;
+    height: 60%;
+    border-radius: 5px;
+    background-color: rgba(30, 11, 4,.5);
+    box-shadow: 3px 3px 6px black;
+}
+label {
+    padding-left: 6%;
+}
+input {
+    border: 1px solid rgb(18, 87, 56);
+    border-radius: 10px;
+    background-color: inherit;
+    padding: 1%;
+    margin: 3% 7%;
+    color: white;
+    font-size: 1.2em;
+}
+input:focus ,button:focus{
+    outline: none;
+}
+#response_div {
+    text-shadow: 3px 3px 4px black;
+    font-size: 14px;
+    position: relative;
+    display: none;
+    /*background-color: inherit;*/
+    border-radius: 10px;
+    margin: 3%;
+    padding: 1%;
+    text-align: center;
+}
+button {
+    position: absolute;
+    top:83%;
+    left:10%;
+    font-size:95%;
+    width: auto;
+    clear: both;
+    margin: 0;
+    min-width:15%;
+    border-radius: 10px;
+    background-color: rgb(18, 87, 56);
+    color: #fff;
+    height: 7vh;
+    border: 0;
+}
+button:hover {
+    box-shadow: 5px 5px 30px black inset;
+}
+@media only screen and (max-width: 1030px) {
+    #content {
+        background-color: rgba(30, 11, 4,.9);
+        padding: 1%;
+        width: 80vw;
+        min-height: 70%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-60%);
+    }
+    #map {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 550px)  {
+  #content {
+      background-color: rgba(30, 11, 4,.9);
+      padding: 4%;
+      width: 96vw;
+      min-height: 80%;
+  }
+
+    #map {
+        display: none;
+    }
+    h3, label {
+        font-size: 9vw;
+    }
+}
+@media screen and (orientation: portrait){
+    #content {
+        min-height: 65vw;
+    }
+}
