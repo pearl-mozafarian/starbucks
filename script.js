@@ -1,4 +1,4 @@
-var OUR_KEY = 'AIzaSyAjB0z2sG-kIlF4cnQiLwF2q78SE1QjVKQ';
+var OUR_KEY = 'API-KEY-GOES-HERE';
 var map;
 var service;
 var infowindow;
